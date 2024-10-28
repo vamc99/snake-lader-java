@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Snake{  
 JFrame f;  
 Snake(){
-	File folder = new File("/home/vit/vamsi/java/snake/images/");
+	File folder = new File("images");
 	File[] fileNames = folder.listFiles();
 	Arrays.sort(fileNames); 
 	System.out.println(fileNames[0]); 
